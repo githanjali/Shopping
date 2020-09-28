@@ -1,0 +1,73 @@
+ [
+    {
+        "catId" : 1,
+      "catName": "Shoes",
+      "catDesc": "Shoes are best way to show stylishness",
+      "products": [
+        {
+          "productId": "1",
+          "brandName": "Adidas"
+        }
+      ]
+    },
+    {
+      "catId" : 2,
+      "catName": "Jeans",
+      "catDesc": "Jeans we can have many stylish brands and different colours",
+      "products": [
+        {
+          "productId": "1",
+          "brandName": "LEVIS"
+        },
+        {
+          "productId": "2",
+          "brandName": "PEPE JEANS"
+        }
+      ]
+    },
+    {
+      "catId" : 3,
+      "catName": "Kurthies",
+      "catDesc": "Kurthies we can have many stylish brands and different colours",
+      "products": [
+        {
+          "productId": "1",
+          "brandName": "W"
+        },
+        {
+          "productId": "2",
+          "brandName": "AVASA"
+        }
+      ]
+    },
+    {
+      "catId" : 4,
+      "catName": "Tops",
+      "catDesc": "Tops we can have many stylish brands and different colours",
+      "products": [
+        {
+          "productId": "1",
+          "brandName": "LEVIS"
+        },
+        {
+          "productId": "2",
+          "brandName": "PEPE JEANS"
+        }
+      ]
+    },
+    {
+      "catId" : 5,
+      "catName": "Shirts",
+      "catDesc": "Shirts we can have many stylish brands and different colours",
+      "products": [
+        {
+          "productId": "1",
+          "brandName": "LEVIS"
+        },
+        {
+          "productId": "2",
+          "brandName": "Allen Solly"
+        }
+      ]
+    }
+   ]
