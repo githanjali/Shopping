@@ -21,7 +21,7 @@ exports.create = (req, res) => {
     price : req.body.price
   });
 
-  // Save Customer in the database
+  // Save product in the database
   Product.create(product, (err, data) => {
     if (err)
       res.status(500).send({
@@ -32,7 +32,7 @@ exports.create = (req, res) => {
   });
 };
 
-// Retrieve all Customers from the database.
+// Retrieve all products from the database.
 exports.findAll = (req, res) => {
   Product.getAll((err, data) => {
     if (err)

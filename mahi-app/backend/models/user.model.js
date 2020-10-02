@@ -64,8 +64,9 @@ User.remove = (id,result)=>{
     if(err){
       console.log(err);
       result(null,err);
+
     }
-    if(err.affectedrows == "0"){
+    if(res.affectedRows == "0"){
       result({kind:"not_found"},null)
     }
     console.log("deleted user by id successfully");

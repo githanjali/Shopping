@@ -4,6 +4,10 @@ const bodyParser = require("body-parser");
 
 const productsRoutes = require("./routes/products.routes");
 const userRoutes = require("./routes/user.routes");
+const categoryRoutes = require("./routes/category.routes");
+const orderRoutes = require("./routes/order.routes");
+const cartRoutes = require("./routes/cart.routes");
+
 var app = express();
 
   // parse requests of content-type: application/json
@@ -21,6 +25,9 @@ app.use(bodyParser.json());
 //app.use(prod);
 app.use('/api',productsRoutes);
 app.use('/api',userRoutes);
+app.use('/api',categoryRoutes);
+app.use('/api',orderRoutes);
+app.use('/api',cartRoutes);
 
 
 app.listen(3000, () => {
